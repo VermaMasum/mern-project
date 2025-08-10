@@ -1,9 +1,9 @@
-## Quick Start Guide - Form-Based Order System
+## Quick Start Guide -
 
 ### Backend Setup
 
 ```bash
-cd stripe-backend
+cd backend
 npm install
 npm start
 ```
@@ -11,8 +11,8 @@ npm start
 ### Backend Endpoints
 
 - **Health Check**: http://localhost:4242/health
-- **Submit Order**: POST http://localhost:4242/submit-order
-- **Get Orders**: GET http://localhost:4242/orders
+- **Submit Order**: POST http://localhost:4242/api/orders
+- **Get Orders**: GET http://localhost:4242/api/orders
 ngose c
 ### Frontend Integration
 
